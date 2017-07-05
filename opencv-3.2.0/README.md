@@ -1,4 +1,4 @@
-How to build opencv for arm-linux
+### How to build opencv for arm-linux
 
 toolchain : arm-linux-gnueabihf version 4.9.2
 
@@ -13,14 +13,14 @@ cpu : ARM Cortex-A7
    bin, include, lib, share
 6. cp lib /usr/lib(target arm-linux board)
 
-Test 
-7. cd ../example
-8. make
-9. cp opencv_test target_board
-10. ./opencv_test
-11. Get gray.jpeg
+### Test 
+1. cd ../example
+2. make
+3. cp opencv_test target_board
+4. ./opencv_test
+5. Get gray.jpeg
 
-if gray.jpeg is gray scale, success.
+#### if gray.jpeg is gray scale, success.
 
 
 
